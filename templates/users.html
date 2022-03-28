@@ -1,0 +1,12 @@
+{% extends "secondaryLayout.html" %}
+
+{% block body %}
+
+<h1>Registered users:</h1>
+<ul>
+    {% for row in rows %}
+        <li>{{ row["name"] }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
