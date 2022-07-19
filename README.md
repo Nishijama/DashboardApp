@@ -1,6 +1,44 @@
 # Personal Dashboard App
-#### Video Demo:  <URL HERE>
-#### Description:
+#### A full stack application allowing multiple users to track their key metrics and compare with anonimized data from other users.
+
+
+### Video Demo:  [link](https://www.youtube.com/watch?v=XrkCiLXXUuA&feature=youtu.be)
+
+### Technologies:
+* Python
+* Flask
+* JavaScript
+* Google Chart API
+* HTML
+* CSS
+
+## Setup
+To run this project, download and unzip the project, open termainal inside the project directory and run these commands:
+
+```
+$ python -m venv env
+$ source env/bin/activate
+$ pip install -r requirements.txt
+$ flask run
+```
+And visit [http://127.0.0.1:5000/login](http://127.0.0.1:5000/login)
+
+### Features
+* Register a personal account
+* Add key metrics for each work-day
+* See your metrics desplayed on interactive charts
+* Compare your metrics with anonymized metrics of other users
+* Responsive layout
+
+### Context
+App developed as Final Project for CS50's Introduction to computer science.
+Inspired by the need for a tracking tool at my previous job.
+
+### Screenshot
+![Screenshot](https://nishijama.github.io/PersonalWebpage/static/images/DashboardScreen.png)
+
+### Original description:
+
 I developped this app with my current job in mind and I even hope I can get it hosted on our Intranet so that it's put to an actual use.
 I work as a workflow planner in a Visual Graphics Department and our main task as planners is managing incoming requests.
 I work in a mid-sized team and our individual productivity is assessed in part based on the number of requests and pages we process every day.
